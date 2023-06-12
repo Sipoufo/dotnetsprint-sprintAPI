@@ -16,7 +16,7 @@ public class MetricsController : ControllerBase
 {
     private readonly MetricContext _context;
     private static readonly HttpClient client = new HttpClient();
-    private static readonly String url = "http://192.168.151.206:8082";
+    private static readonly String url = "http://192.168.8.103:8082";
 
 
     public MetricsController(MetricContext context)
